@@ -6,24 +6,11 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
 
-	default 0xC63A
-
 endif
 
 if SHIELD_CHARYBDIS_LEFT || SHIELD_CHARYBDIS_RIGHT
 
 config ZMK_SPLIT
 	default y
-
-config USB_DEVICE_VID
-	default 0x256F
-
-config USB_DEVICE_PID
-	default 0xc631
-
-config BT_DIS_PNP_VID
-	default 0x256F
-
-config BT_DIS_PNP_PID
 	
 endif
