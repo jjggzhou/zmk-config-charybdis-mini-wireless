@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmk
-      url-base: https://github.com/jjggzhou/zmk.git
+      url-base: https://github.com/jjggzhou/
     - name: inorichi
       url-base: https://github.com/inorichi
   projects:
