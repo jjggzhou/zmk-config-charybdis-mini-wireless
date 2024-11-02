@@ -51,10 +51,3 @@
 };
 
 
-#include <layouts/foostan/corne/6column.dtsi>
-
-// Assigning suitable kscan and matrix transforms
-&foostan_corne_6col_layout {
-    transform = <&default_transform>;
-    kscan = <&kscan0>;
-};
