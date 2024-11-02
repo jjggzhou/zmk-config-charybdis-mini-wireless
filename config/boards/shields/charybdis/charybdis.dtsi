@@ -49,3 +49,12 @@
             ;
     };
 };
+
+
+#include <layouts/foostan/corne/6column.dtsi>
+
+// Assigning suitable kscan and matrix transforms
+&cuddlykeyboards_ferris_layout {
+    transform = <&default_transform>;
+    kscan = <&kscan0>;
+};
