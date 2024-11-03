@@ -50,3 +50,11 @@
             ;
     };
 };
+
+
+/ {
+    chosen {
+        zmk,physical-layout = &five_column_transform;
+        // Other chosen items
+    };
+};
